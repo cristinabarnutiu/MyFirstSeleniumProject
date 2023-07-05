@@ -1,0 +1,4 @@
+1. Scrieti un test de Logout in clasa Logout
+2. In clasa Dropdown, adaugati o metoda de test care sa verifice selectarea optiunii "Option 2"
+3. In clasa Checkboxes, adaugati o metoda de test care sa verifice ca atunci cand deselectam ambele checkboxes sunt intr-adevar deselectate.
+4. git commit + git push pe github

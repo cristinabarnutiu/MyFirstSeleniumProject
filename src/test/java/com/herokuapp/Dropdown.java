@@ -21,13 +21,8 @@ public class Dropdown {
         Select dropdownElement = new Select(dropdown);
         //dropdownElement.selectByValue("1");
         dropdownElement.selectByVisibleText("Option 1");
-
         WebElement option1 = driver.findElement(By.xpath("//*[@id=\"dropdown\"]/option[2]"));
-
         Assert.assertTrue(option1.isSelected());
-
         driver.close();
-
-
     }
 }
