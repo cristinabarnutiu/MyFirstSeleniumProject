@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AllTests" verbose="1" >
+    <test name="Checkboxes" >
+        <classes>
+            <class name="com.herokuapp.Checkboxes" />
+        </classes>
+    </test>
+    <test name="Dropdown" >
+        <classes>
+            <class name="com.herokuapp.Dropdown" />
+        </classes>
+    </test>
+
+    <test name="Login and Logout">
+        <classes>
+            <class name="com.herokuapp.Login"/>
+            <class name="com.herokuapp.NegativeLogin"/>
+            <class name="com.herokuapp.Logout"/>
+        </classes>
+    </test>
+</suite>

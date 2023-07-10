@@ -2,3 +2,8 @@
 2. In clasa Dropdown, adaugati o metoda de test care sa verifice selectarea optiunii "Option 2"
 3. In clasa Checkboxes, adaugati o metoda de test care sa verifice ca atunci cand deselectam ambele checkboxes sunt intr-adevar deselectate.
 4. git commit + git push pe github
+------------
+5. adaugati un test pentru download (un singur fisier): https://the-internet.herokuapp.com/download
+6. adaugati toate testele noi in fisierul AllTests.xml
+7. rulati suita de teste automate AllTests.xml
+8. deschideti raportul nou generat (test-output > emailable-report.html)
