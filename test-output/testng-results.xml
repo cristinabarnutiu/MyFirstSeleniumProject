@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-10T19:33:24 EEST" name="AllTests" finished-at="2023-07-10T19:33:47 EEST" duration-ms="23287">
+    <groups>
+    </groups>
+    <test started-at="2023-07-10T19:33:24 EEST" name="Checkboxes" finished-at="2023-07-10T19:33:32 EEST" duration-ms="8294">
+      <class name="com.herokuapp.Checkboxes">
+        <test-method signature="checkboxTest()[pri:0, instance:com.herokuapp.Checkboxes@4387b79e]" started-at="2023-07-10T19:33:24 EEST" name="checkboxTest" finished-at="2023-07-10T19:33:29 EEST" duration-ms="5010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxTest -->
+        <test-method signature="uncheckCheckboxesTest()[pri:0, instance:com.herokuapp.Checkboxes@4387b79e]" started-at="2023-07-10T19:33:29 EEST" name="uncheckCheckboxesTest" finished-at="2023-07-10T19:33:32 EEST" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uncheckCheckboxesTest -->
+      </class> <!-- com.herokuapp.Checkboxes -->
+    </test> <!-- Checkboxes -->
+    <test started-at="2023-07-10T19:33:32 EEST" name="Dropdown" finished-at="2023-07-10T19:33:39 EEST" duration-ms="6657">
+      <class name="com.herokuapp.Dropdown">
+        <test-method signature="dropdownTest()[pri:0, instance:com.herokuapp.Dropdown@4df50bcc]" started-at="2023-07-10T19:33:32 EEST" name="dropdownTest" finished-at="2023-07-10T19:33:36 EEST" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownTest -->
+        <test-method signature="dropdownTest2()[pri:0, instance:com.herokuapp.Dropdown@4df50bcc]" started-at="2023-07-10T19:33:36 EEST" name="dropdownTest2" finished-at="2023-07-10T19:33:39 EEST" duration-ms="3179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownTest2 -->
+      </class> <!-- com.herokuapp.Dropdown -->
+    </test> <!-- Dropdown -->
+    <test started-at="2023-07-10T19:33:39 EEST" name="Login and Logout" finished-at="2023-07-10T19:33:47 EEST" duration-ms="8247">
+      <class name="com.herokuapp.Logout">
+        <test-method signature="logoutTest()[pri:0, instance:com.herokuapp.Logout@4e91d63f]" started-at="2023-07-10T19:33:47 EEST" name="logoutTest" finished-at="2023-07-10T19:33:47 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- com.herokuapp.Logout -->
+      <class name="com.herokuapp.NegativeLogin">
+        <test-method signature="negativeLoginTest()[pri:0, instance:com.herokuapp.NegativeLogin@1a04f701]" started-at="2023-07-10T19:33:43 EEST" name="negativeLoginTest" finished-at="2023-07-10T19:33:47 EEST" duration-ms="3896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+      </class> <!-- com.herokuapp.NegativeLogin -->
+      <class name="com.herokuapp.Login">
+        <test-method signature="loginTest()[pri:0, instance:com.herokuapp.Login@2f112965]" started-at="2023-07-10T19:33:39 EEST" name="loginTest" finished-at="2023-07-10T19:33:43 EEST" duration-ms="4337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.herokuapp.Login -->
+    </test> <!-- Login and Logout -->
+  </suite> <!-- AllTests -->
+</testng-results>
