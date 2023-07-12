@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Checkboxes {
-    @Test
+    @Test(priority =2, groups = {"regression","smoke"})
     public void checkboxTest(){
         System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -28,7 +28,7 @@ public class Checkboxes {
         driver.close();
     }
 
-    @Test
+    @Test(priority = 1, groups = {"regression"}, enabled=false)
     public void uncheckCheckboxesTest(){
         System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();

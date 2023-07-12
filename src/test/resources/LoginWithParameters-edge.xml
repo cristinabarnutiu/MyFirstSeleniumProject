@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Login With Parameters" verbose="1" >
+    <parameter name="browser"  value="edge"/>
+    <test name="Successful Login" >
+
+        <parameter name="user"  value="tomsmith"/>
+        <parameter name="pass"  value="SuperSecretPassword!"/>
+        <parameter name="msg"  value="You logged into a secure area!"/>
+
+        <classes>
+            <class name="com.herokuapp.LoginWithParameters" />
+        </classes>
+    </test>
+
+    <test name="Wrong username" >
+
+        <parameter name="user"  value="incorrect"/>
+        <parameter name="pass"  value="SuperSecretPassword!"/>
+        <parameter name="msg"  value="Your username is invalid!"/>
+
+        <classes>
+            <class name="com.herokuapp.LoginWithParameters" />
+        </classes>
+    </test>
+
+    <test name="Wrong password" >
+
+        <parameter name="user"  value="tomsmith"/>
+        <parameter name="pass"  value="incorrect"/>
+        <parameter name="msg"  value="Your password is invalid!"/>
+
+        <classes>
+            <class name="com.herokuapp.LoginWithParameters" />
+        </classes>
+    </test>
+
+
+
+</suite>

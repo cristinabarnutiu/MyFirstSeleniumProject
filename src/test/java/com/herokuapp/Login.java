@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Login {
+
     @Test
     public void loginTest(){
         //open page
