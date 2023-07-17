@@ -44,7 +44,7 @@ public class KeyActions {
         WebElement result = driver.findElement(By.xpath("//*[@id=\"result\"]"));
 
 
-        System.out.println(result.getText());
+        //System.out.println(result.getText());
         Assert.assertTrue(result.getText().contains("You entered: SPACE"));
 
     }
