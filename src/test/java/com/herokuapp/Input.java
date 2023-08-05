@@ -18,11 +18,14 @@ public class Input {
 
         WebElement input = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/div/input"));
         input.click();
-        input.sendKeys("1234567890");
-        input.clear();
+        String inputValue = "1234567890";
+        input.sendKeys(inputValue);
+        String actualValue = input.getAttribute("value");
+        //input.clear();
         //System.out.println(input.getText());
 
-        Assert.assertTrue(input.isDisplayed());
+        Assert.assertEquals(inputValue,actualValue);
+        //Assert.assertTrue(input.isDisplayed());
 
         //Assert.assertTrue(input.getText().contains("1234567890"));
 
